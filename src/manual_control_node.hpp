@@ -32,7 +32,7 @@ class ManualControlNode : public rclcpp::Node
     ManualControlNode(): Node("ManualControl")
     {
       // init variables
-      gear_type_ = GearCommand::DRIVE;
+      gear_type_ = GearCommand::PARK;
       steering_tire_angle_ = 0;
       target_velocity_ = 0;
 
